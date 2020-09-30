@@ -1,0 +1,27 @@
+.sideBarWrapper {
+    grid-area: sidebar;
+    background: #042331;
+    border-radius: 0 0 0 30px;
+}
+
+.sideBarWrapper nav {
+    margin: 20px 0;
+}
+
+
+.itemSidebar a {
+    display: block;
+    padding-left: 40px;
+    line-height: 70px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border-bottom: 1px solid #000;
+    transition: .4s;
+}
+
+.itemSidebar a:hover {
+    padding-left: 60px;
+}
