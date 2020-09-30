@@ -3,16 +3,16 @@ import React from 'react';
 import './App.css';
 
 import { SideBar } from './Component/SideBar/SideBar';
-import { Profile } from './Component/Content/Profile';
 import Header from './Component/Header/Header';
+import Profile from './Component/Content/Profile';
 
-const App = () => {
+const App = (props) => {
   return (
     <div className="appWrapper">
       <Header />
       <SideBar />
       <div class = "content">
-        <Profile /> 
+        <Profile m_mydata = {props.Iam}/>
       </div>
   
     </div>

@@ -1,0 +1,17 @@
+.profInfoWrapper {
+    display: flex;
+}
+
+
+.profInfoWrapper img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.info {
+    margin-left: 60px;
+} 
+
+.info h1 {
+    margin-bottom: 40px;
+}
