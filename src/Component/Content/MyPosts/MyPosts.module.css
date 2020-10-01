@@ -1,0 +1,40 @@
+.MyPostsWrapper {
+   margin: 80px 0;
+}
+
+.addPost {
+    position: relative;
+    left: 10%;
+    margin-bottom: 50px;
+}
+
+.addPost textarea {
+    width: 70%;
+    height: 50px;
+    resize: none; 
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+}
+
+.addPost button {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+    background: #063146;
+    border: 2px solid #000;
+    border-radius: 40px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.addPost button:hover {
+    background: #000;
+}
