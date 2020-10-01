@@ -8,7 +8,7 @@ export const SideBar = () => {
         <div className = {stl.sideBarWrapper}>
             <nav>
                 <div className={stl.itemSidebar}><NavLink to="/Content">Профиль</NavLink></div>
-                <div className={stl.itemSidebar}><NavLink to="#s">Сообщения</NavLink></div>
+                <div className={stl.itemSidebar}><NavLink to="/Dialogs">Сообщения</NavLink></div>
                 <div className={stl.itemSidebar}><NavLink to="#s">Новости</NavLink></div>
                 <div className={stl.itemSidebar}><NavLink to="#s">Музыка</NavLink></div>
                 <div className={stl.itemSidebar}><NavLink to="#s">Настройки</NavLink></div>

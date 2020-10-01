@@ -14,8 +14,7 @@ const MyPosts = () => {
             </div>
 
             <Post />
-            <Post />
-            <Post />
+
         </div>
     )
 }
