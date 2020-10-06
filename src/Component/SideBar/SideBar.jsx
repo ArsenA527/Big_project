@@ -5,13 +5,13 @@ import stl from './SideBar.module.css';
 
 export const SideBar = () => {
     return (
-        <div className = {stl.sideBarWrapper}>
+        <div className={stl.sideBarWrapper}>
             <nav>
-                <div className={stl.itemSidebar}><NavLink to="/Content">Профиль</NavLink></div>
-                <div className={stl.itemSidebar}><NavLink to="/Dialogs">Сообщения</NavLink></div>
-                <div className={stl.itemSidebar}><NavLink to="#s">Новости</NavLink></div>
-                <div className={stl.itemSidebar}><NavLink to="#s">Музыка</NavLink></div>
-                <div className={stl.itemSidebar}><NavLink to="#s">Настройки</NavLink></div>
+                <div><NavLink className={stl.itemSidebar} activeClassName={stl.active} to="/Content">Профиль</NavLink></div>
+                <div><NavLink className={stl.itemSidebar} activeClassName={stl.active} to="/Dialogs">Сообщения</NavLink></div>
+                <div><NavLink className={stl.itemSidebar} to="#s">Новости</NavLink></div>
+                <div><NavLink className={stl.itemSidebar} to="#s">Музыка</NavLink></div>
+                <div><NavLink className={stl.itemSidebar} to="#s">Настройки</NavLink></div>
             </nav>
         </div>
     )

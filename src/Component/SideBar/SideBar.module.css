@@ -9,7 +9,7 @@
 }
 
 
-.itemSidebar a {
+.itemSidebar {
     display: block;
     padding-left: 40px;
     line-height: 70px;
@@ -17,11 +17,15 @@
     color: #fff;
     text-decoration: none;
     box-sizing: border-box;
-    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-bottom: 1px solid #000;
     transition: .4s;
 }
 
-.itemSidebar a:hover {
+.itemSidebar:hover {
+    padding-left: 60px;
+}
+
+.active {
+    color: gold;
     padding-left: 60px;
 }

@@ -1,5 +1,7 @@
 .DialogsItemWrapper {
     margin-bottom: 50px;
+    transition: .4s;
+    cursor: pointer;
 }
 
 .adress {
@@ -7,19 +9,18 @@
 }
 
 .adress img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    transition: .4s;
 }
 
 .adress span {
     position: relative;
-    left: 25px;
-    bottom: 40px;
+    left: 20px;
+    bottom: 30px;
     color: #fff;
     font-size: 25px;
-    transition: .4s;
+
 }
 
 .adress span:hover,
@@ -27,7 +28,6 @@
     color: gold;
 }
 
-.adress span:hover,
-.adress img:hover {
-    margin-left: 40px;
+.DialogsItemWrapper:hover {
+    padding-left: 40px;
 }
